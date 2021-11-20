@@ -1,0 +1,138 @@
+*{
+	margin: 0%;
+}
+a {
+	text-decoration: none;
+}
+body {
+	background-color: #f0f2f5;
+
+}
+.container {
+	display: flex;
+	background-color: #f0f2f5;
+	height: 700px;
+}
+.language_links a {
+	text-decoration: none;
+	color: #646b73 ;
+}
+.language_links a:hover {
+	text-decoration: underline;
+}
+.logo {
+	color: #1877f2;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 80px;
+	font-style: bold;
+	margin-left: 170px;
+	margin-top: 160px;
+}
+.heading1 {
+	color: #1c1e21;
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	margin-left: 170px;
+}
+.footer_box {
+	background-color: #ffffff;
+}
+.login_form{
+	background-color: #ffffff;
+	width: 425px;
+	height: 370px;
+	margin-top: 100px;
+	margin-left: 90px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px 4px lightgrey;
+}
+.login_form a{
+	text-decoration: none;
+	color: #1877f2;
+	font-family: sans-serif;
+	font-style: bold;
+}
+.login_form a:hover {
+	text-decoration: underline;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select,		
+textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	margin: 10px;
+}
+.login_form form input {
+	width: 364px;
+	height: 52px;
+	margin: 20px 20px 0px 20px;
+	border-radius: 5px;
+	color: #90949c;
+	font-size: 18px;
+	padding-left: 20px;
+}
+.login_form form input:focus {
+	    outline: none !important;
+        border-color: #719ECE;
+        box-shadow: 0 0 10px #719ECE;
+}
+.login_form form button {
+	width: 390px;
+	height: 48px;
+	margin: 20px 20px 0px 20px;
+	background-color: #1877f2;
+	border: none;
+	border-radius: 5px;
+	/*padding: 0px 16px;*/
+	color: white;
+	font-family: 'Helvetica', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+.login_form form button:hover {
+	background-color: #0059cc;
+}
+.login_form form a {
+	margin: 20px 20px 0px 20px;
+}
+#sign_up {
+	height: 48px;
+	align-items: center;
+	width: 200px;
+	background-color: #42b72a;
+	color: white;
+	margin-left: 110px;
+	font-family: Helvetica;
+	font-size: 17px;
+}
+#sign_up:hover {
+	background-color: #269c0e;
+}
+#dash {
+	color: lightgrey;
+	margin-left: 20px;
+}
+.login_form form a {
+	margin-left: 125px;
+}
+#page_link {
+	position: absolute;
+	margin-left: 850px;
+	margin-top: 500px;
+	border-top: none;
+    color: #1c1e21;
+    font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+}
+#page_link a {
+	color: black;
+	font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+	font-weight: 600;
+}
+#page_link a:hover {
+	text-decoration: underline;
+}
